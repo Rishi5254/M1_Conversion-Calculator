@@ -1,15 +1,7 @@
-/**
- * @file testcalculate.c
- * @author Rishik Guggilla (you@domain.com)
- * @brief  testing unit converter
- * @version 0.1
- * @date 2022-03-25
- * @copyright Copyright (c) 2022
- * 
- */
 #include"stdio.h"
 #include"converters.h"
 #include"unity.h"
+
 
 void setUp()
 {
@@ -27,13 +19,13 @@ void test_killometer_to_meter(void)
 }
 void test_yard_to_cent(void)
 {
-  TEST_ASSERT_EQUAL(43000000, calculate_length_menu(3,43));
-  
-  
+  TEST_ASSERT_EQUAL(3931, calculate_length_menu(15,43));
+
+
 }
 void test_cent_to_yard(void)
 {
-  TEST_ASSERT_EQUAL(0, calculate_length_menu(4,27));
+  TEST_ASSERT_EQUAL(3, calculate_length_menu(16,27));
   
 }
 void test_kg_g(void)
@@ -114,50 +106,50 @@ void test_millimeter_to_meter(void)
 }
 void test_millimeter_to_centimeter(void)
 {
-  TEST_ASSERT_EQUAL(43, calculate_length_menu(12,4345));
-  TEST_ASSERT_EQUAL(5, calculate_length_menu(12,536));
+  TEST_ASSERT_EQUAL(434.5, calculate_length_menu(12,4345));
+  TEST_ASSERT_EQUAL(53.6, calculate_length_menu(12,536));
   
 }
-// void test_inch_to_feet(void)
-// {
-//   TEST_ASSERT_EQUAL(45000, calculate_length_menu(1,45));
+void test_inch_to_feet(void)
+{
+  TEST_ASSERT_EQUAL(3.75, calculate_length_menu(13,45));
   
-// }
-// void test_foot_to_inch(void)
-// {
-//   TEST_ASSERT_EQUAL(500000, calculate_length_menu(2,5));
+}
+void test_foot_to_inch(void)
+{
+  TEST_ASSERT_EQUAL(60, calculate_length_menu(14,5));
+
+}
   
-// void test_g_kg(void)
-// {
-//   TEST_ASSERT_EQUAL(500000000, calculate_length_menu(2,5000.0));
+void test_g_kg(void)
+{
+  TEST_ASSERT_EQUAL(5, calculate_length_menu(2,5000));
 
   
-// }
-// void test_kg_pound(void)
-// {
-//   TEST_ASSERT_EQUAL(12000000, calculate_length_menu(3,12));
+}
+void test_kg_pound(void)
+{
+  TEST_ASSERT_EQUAL(26.4, calculate_length_menu(3,12));
   
-// }
-// void test_pound_kg(void)
-// {
-//   TEST_ASSERT_EQUAL(0, calculate_length_menu(4,120));
+}
+void test_pound_kg(void)
+{
+  TEST_ASSERT_EQUAL(54.4, calculate_length_menu(4,120));
   
-// }
-// void test_c_f(void)
-// {
-//   TEST_ASSERT_EQUAL(10000, calculate_length_menu(1,10));
+}
+void test_c_f(void)
+{
+  TEST_ASSERT_EQUAL(50, calculate_temprature_menu(1,10));
   
-// }
-// void test_f_c(void)
-// {
-//   TEST_ASSERT_EQUAL(100000, calculate_length_menu(1,100));
+}
+void test_f_c(void)
+{
+  TEST_ASSERT_EQUAL(30, calculate_temprature_menu(2,86));
   
-// }
+}
 
 
-
-int main(){
-  printf("%f", calculate_length_menu(1,14));
+int main() {
   UNITY_BEGIN();
   RUN_TEST(test_killometer_to_meter);
 
@@ -183,25 +175,26 @@ int main(){
 
   RUN_TEST(test_millimeter_to_centimeter);
 
-  // RUN_TEST(test_inch_to_feet);
+  RUN_TEST(test_inch_to_feet);
 
-  // RUN_TEST(test_foot_to_inch);
+  RUN_TEST(test_foot_to_inch);
 
-  // RUN_TEST(test_yard_to_cent);
+  RUN_TEST(test_yard_to_cent);
 
-  // RUN_TEST(test_cent_to_yard);
+  RUN_TEST(test_cent_to_yard);
 
-  // RUN_TEST(test_kg_g);
+  RUN_TEST(test_kg_g);
 
-  // RUN_TEST(test_g_kg);
+  RUN_TEST(test_g_kg);
   
-  // RUN_TEST(test_kg_pound);
+  RUN_TEST(test_kg_pound);
   
-  // RUN_TEST(test_pound_kg);
+  RUN_TEST(test_pound_kg);
   
-  // RUN_TEST(test_c_f);
+  RUN_TEST(test_c_f);
   
-  // RUN_TEST(test_f_c);
+  RUN_TEST(test_f_c);
   
   return UNITY_END();
+
 }

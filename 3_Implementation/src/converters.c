@@ -1,14 +1,4 @@
-/**
- * @file calculate.c
- * @author Rishik Guggilla (you@domain.com)
- * @brief ALL THE NECERARY CALCULATIOS ARE HERE FOR UNIT CALCULATOR UTILITY
- * @version 0.1
- * @date 2022-03-25
- * @copyright Copyright (c) 2022
- * 
- */
-
-#include<stdio.h>
+#include <stdio.h>
 
 
 float calculate_length_menu(int sub_value ,float value){  // FUNCTION FOR LENGTH CONVERTER LOGIC 
@@ -59,7 +49,7 @@ float calculate_length_menu(int sub_value ,float value){  // FUNCTION FOR LENGTH
             break;
 
         case 12:      //millimeter_to_centimeter
-            return value/100;
+            return value/10;
             break;
 
         case 13:      //inch_to_feet
@@ -122,11 +112,11 @@ float calculate_temprature_menu(int sub_value ,float value){  // FUNCTION FOR TE
 
     switch (sub_value) {
         case 1:      //c to f
-            return (value*(9/5))+32;
+            return (value*1.8) + 32;
             break;
 
         case 2:      //f to c
-            return (value-32)*(5/9);
+            return (value-32)* 5/9;
             break;
 
         default: printf("YOU ENTERED A WRONG INPUT");

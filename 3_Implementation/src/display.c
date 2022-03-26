@@ -1,14 +1,4 @@
-/**
- * @file display.c
- * @author Rishik Guggilla (you@domain.com)
- * @brief  this file include all the functions which are useful to communicate with user and to take user input and to show their output
- * @version 0.1
- * @date 2022-03-23
- * @copyright Copyright (c) 2022
- * 
- */
-
-#include "stdio.h"
+#include <stdio.h>
 
 
 int display_main_menu(void)    // DISPLAY MAIN MENU TO USER
@@ -17,10 +7,10 @@ int display_main_menu(void)    // DISPLAY MAIN MENU TO USER
 
     printf("                           Welcome to Unit Converter \n");
     printf("\n************************************ MAIN MENU *****************************************\n\n");
-    printf("\n1-LENGTH CONVERTER     (1)\n");
-    printf("\n2-WEIGHT CONVERTER     (2)\n");
-    printf("\n3-TEMPRATURE CONVERTER (3)\n");
-    printf("\n\n\n\n\n Enter your choice? (numeric value only) : ");
+    printf("\n1-LENGTH CONVERTER     \n");
+    printf("\n2-WEIGHT CONVERTER     \n");
+    printf("\n3-TEMPRATURE CONVERTER \n");
+    printf("\n\n\n\n\nEnter your choice? (numeric value only) : ");
 
     scanf("%d", &main_menu);
 
@@ -47,7 +37,7 @@ int display_length_menu(void)     // DISPLAY THE LENGTH CONVERTER MENU 1 TO USER
     printf("\n 13-INCH To FEET                    14-FOOT To INCH                       15-YARD T0 CENT\n");
     printf("\n 16-CENT to YARD\n");
 
-    printf("\n\n\n Enter your choice ?(numeric value only) :   ");
+    printf("\n\n\nEnter your choice ?(numeric value only) :   ");
 
     scanf("%d",&length_menu);
 
@@ -69,7 +59,7 @@ int display_weight_menu(void)      //DISPLAYS THE WEIGHT CONVERTER MENU
     printf("\n********************************************* WEIGHT CONVERTER *********************************************\n\n");
     printf("\n1-KILOGRAM TO GRAM                       2-GRAM TO KILOGRAM                           3-KILOGRAM TO POUND\n");
     printf("\n4-POUND TO KILOGRAM        \n");
-    printf("\n\n\n Enter your choice ?(numeric value only)");
+    printf("\n\n\nEnter your choice ?(numeric value only) : ");
 
     scanf("%d",&weight_menu);
 
@@ -91,7 +81,7 @@ int display_temprature_menu(void){              //DISPLAYS THE TEMPRATURE MENU
 
     printf("\n********************************************** TEMPRATURE CONVERTER ***********************************************\n\n");
     printf("\n1-CELCIUS TO FARENHEIT                       2-FARENHEIT TO CELCIUS                           \n");
-    printf("\n\n\n Enter your choice ?(numeric value only)");
+    printf("\n\n\nEnter your choice ?(numeric value only): ");
     scanf("%d",&temprature_menu);
 
     while(temprature_menu>2 || temprature_menu<1) {
@@ -118,6 +108,6 @@ float display_value(void)                       // DISPLAYS VALUE
 
 void display_answer(float ans){                         //DISPLAY  ANSWER
 
-    printf("\n\nConverted value is : %f",ans);
+    printf("\n\nConverted value is : %f\n\n",ans);
 
 }
