@@ -123,18 +123,18 @@ void test_foot_to_inch(void)
   
 void test_g_kg(void)
 {
-  TEST_ASSERT_EQUAL(5, calculate_length_menu(2,5000));
+  TEST_ASSERT_EQUAL(5, calculate_weight_menu(2,5000));
 
   
 }
 void test_kg_pound(void)
 {
-  TEST_ASSERT_EQUAL(26.4, calculate_length_menu(3,12));
+  TEST_ASSERT_EQUAL(26.4, calculate_weight_menu(3,12));
   
 }
 void test_pound_kg(void)
 {
-  TEST_ASSERT_EQUAL(54.4, calculate_length_menu(4,120));
+  TEST_ASSERT_EQUAL(54.4, calculate_weight_menu(4,120));
   
 }
 void test_c_f(void)
