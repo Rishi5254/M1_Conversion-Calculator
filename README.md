@@ -22,3 +22,6 @@ Build on windows [![Code Grade](https://api.codiga.io/project/32151/status/svg)]
 
 * Git Inspector
 [![Contribution Check - Git Inspector](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/gitinspector.yml)
+
+* Unity Badge
+[![Unit Testing - Unity](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/unity.yml)
