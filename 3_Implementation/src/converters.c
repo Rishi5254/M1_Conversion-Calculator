@@ -8,7 +8,7 @@ float calculate_length_menu(int sub_value ,float value){  // FUNCTION FOR LENGTH
             return value*1000;
             break;
 
-        case 2:      //kilometer_to_centimeter
+        case 2:      //kilometer to centimeter
             return value*100000;
             break;
 
