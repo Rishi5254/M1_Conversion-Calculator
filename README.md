@@ -19,3 +19,6 @@ Build on windows [![Code Grade](https://api.codiga.io/project/32151/status/svg)]
 
 * Codiga score
 [codiga results](https://app.codiga.io/public/project/32151/M1_Conversion-Calculator/dashboard)
+
+* Git Inspector
+[![Contribution Check - Git Inspector](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/gitinspector.yml)
