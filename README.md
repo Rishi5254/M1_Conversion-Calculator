@@ -17,3 +17,5 @@
 * code grade
 Build on windows [![Code Grade](https://api.codiga.io/project/32151/status/svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/windows-build.yml)
 
+* Codiga score
+[codiga results](https://app.codiga.io/public/project/32151/M1_Conversion-Calculator/dashboard)
