@@ -1,7 +1,7 @@
 
 # Conversion-Calculator
 
-It is a simple, two-player game that, if played optimally by both players, will always result in a tie. The game is also called noughts and crosses or Xs and Os. It is a game that is traditionally played by being drawn on paper, and it can be played on a computer or on a variety of media.
+Conversion Calculator is an utility that allows user to convert unit values according to the user needs and requirement. This project is titled as Convertion Calculator and it is developed using c language. when a user want to convert a value in one unit to another, user need to entre their required conversion type by entering their option shown in the menu, after that user need to enter value to be converted, after this they will get their desired output.
 
 ## Badges
 
