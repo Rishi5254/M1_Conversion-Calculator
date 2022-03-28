@@ -1,37 +1,113 @@
-Requirements
-Introduction
---- TBD
+ # Requirements
 
-Research
-![Description](Link to Pic) -- Content
+ ## Introduction
+Conversion Calculator is an utility that allows user to convert unit values according to the user needs and requirement. This project is titled as **Convertion Calculator** 
+ and it is developed using c language.
+ when a user want to convert a value in one unit to another, user need to entre their required conversion type by entering their option shown in the menu, after that user need to enter value  to be converted, after this they will get their desired output. 
 
-Cost and Features and Timeline
-![Description](Link to Pic) -- Content
+ ## Research
+   ###  Advantages
+     *   Easy and faster access
+     *   can be used anywhere
+     *   Future Proof
 
-Defining Our System
--- TBD
-SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+   ###   Disadvantages
+     *   GUI is needed
+     *   limited converstions
 
-4W's and 1'H
-Who:
-TBD
+ ## Cost and Features
+ -   EasierAccess
+ -   Low Cost
 
-What:
-TBD
+## TimeLine
 
-When:
-TBD
+Problem Statement ---> Research ---> Plan --->Design --->Implement--->Testing --->Execute---> Out for Market
 
-Where:
-TBD
+## Defining our System
 
-How:
-TBD
+Although graphics has not been used in this project, the application of user defined functions and structures have been effectively used here. The major user defined functions used in this C project are:
 
-Detail requirements
-High Level Requirements:
---- TBD in Tabular Format -- ID | Description | Status (Implemented/Future)
+* calculate_length_menu()
+* calculate_weight_menu()
+* calculate_temprature_menu()
+* display_main_menu();            
+* display_length_menu();        
+* display_weight_menu();        
+* display_temprature_menu();
+* display_value()
+* display_answer()
 
-Low level Requirements:
---- TBD in Tabular Format -- ID | Description | Status (Implemented/Future)
+Conversion Calculator application is so simple to use. In order to use the application, use make run command and then, you will have three options to select :
+
+* LENGTH CONVERTER
+
+* WEIGHT CONVERTER
+
+* TEMPRATURE CONVERTER
+
+## TOOLS USED
+
+* GCC Compiler
+* G-Edit
+* GNU/GDB debugger
+* C/C++ interpreter Ch 5.0
+
+## SWOT ANALYSIS
+
+  ![SWOT](https://github.com/vinayvanka/M1_Unit_Converter_Util/blob/main/1_Requirements/SWOT.jpg)
+
+   ### Strengths
+
+      We can access it from anywhere.
+      It makes calculations easy.
+      It is available for 24/7.
+  
+   ### Weaknesses
+
+      Limeted conversions.
+      Needs graphical user interface.
+
+   ### Opportunities
+
+      It can be used in different work places and by different needs. (example: physics lab, calculating distance from one form to another etc.) 
+      User friendly.
+
+   ### Threats
+
+      limited  access.
+
+
+
+ ## 4 W's and 1 H
+
+   ### Who
+     Anyone can use this by accessing its main menu and need to choose there  required field of choice and need to enter the value to get there desired output.
+
+   ### What
+     It's an unit converter utility to convert units, whic will hwpl user to converts units from one form to another form  .
+
+   ### When
+     It is available to user 24X7, 365 days without any issues and works infinite times.
+
+   ### Where
+     We can use this at different palces and this is platform independent, it will work in any platform.
+     It can be used in sintefic calculators or in maths or physics labs. 
+   ### How
+    This application was developed in C language to avoid the complexity and to keep it simple. 
+
+
+# Detail requirements
+## High Level Requirements
+|HLR|     Description  |
+|------|  --------------|
+|HLR_1|   Accurate value     |
+|HLR_2|   conversion factors |
+|HLR_3|   Basic conversions  |
+
+            
+## Low Level Requirements
+|LLR|     Description |
+|------|  ------------|
+|LLR_1|   limited attempts |
+|LLR_2|   Clean UI         |
+|LLR_3|   User friendly    | 
