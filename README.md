@@ -5,9 +5,9 @@ It is a simple, two-player game that, if played optimally by both players, will 
 
 ## Badges
 
-| Build       |  Unity      |  code quality score |   
+| cppcheck       |  Unity      |  code quality score |   
 |-            | -           |-                    |
-|[![C windows Build](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/windows-build.yml/badge.svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/windows-build.yml)                                                                                                                        [![Build CI - Linux](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/c-cpp.yml) | [![Unit Testing - Unity](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/unity.yml)|[![Code Grade](https://api.codiga.io/project/32151/status/svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/windows-build.yml)  [![Code Quality Score](https://api.codiga.io/project/32151/score/svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/code-quality.yml)|
+|[![Cppcheck](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/code-quality.yml/badge.svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/code-quality.yml) | [![Unit Testing - Unity](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/unity.yml)|[![Code Grade](https://api.codiga.io/project/32151/status/svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/windows-build.yml)  [![Code Quality Score](https://api.codiga.io/project/32151/score/svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/code-quality.yml)|
 
 
 |  git Inspector     | Valgrind   | Static Analysis |
@@ -15,9 +15,9 @@ It is a simple, two-player game that, if played optimally by both players, will 
 |[![Contribution Check - Git Inspector](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/gitinspector.yml)| [![Valgrind](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/valgrind.yml/badge.svg)](https://github.com/Rishi5254/M1_Conversion-Calculator/actions/workflows/valgrind.yml) | [![STATIC ANALYSIS](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/cppcheck.yml)
 
 
- | cppcheck|  Codiga Score  |
+ | Build|  Codiga Score  |
  | -       |    -   |
- | [![Cppcheck](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/code-quality.yml/badge.svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/code-quality.yml)|    [result](https://app.codiga.io/public/project/32151/M1_Conversion-Calculator/dashboard) |
+ | [![C windows Build](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/windows-build.yml/badge.svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/windows-build.yml)                                                                                                                        [![Build CI - Linux](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Rishi5254/M1_Currency-Converter/actions/workflows/c-cpp.yml) |    [result](https://app.codiga.io/public/project/32151/M1_Conversion-Calculator/dashboard) |
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
