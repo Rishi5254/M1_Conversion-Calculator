@@ -7,13 +7,13 @@ Conversion Calculator is an utility that allows user to convert unit values acco
 
  ## Research
    ###  Advantages
-     *   Easy and faster access
-     *   can be used anywhere
-     *   Future Proof
+        Easy and faster access
+        can be used anywhere
+        Future Proof
 
    ###   Disadvantages
-     *   GUI is needed
-     *   limited converstions
+        GUI is needed
+        limited converstions
 
  ## Cost and Features
  -   EasierAccess
@@ -25,20 +25,8 @@ Problem Statement ---> Research ---> Plan --->Design --->Implement--->Testing --
 
 ## Defining our System
 
-Although graphics has not been used in this project, the application of user defined functions and structures have been effectively used here. The major user defined functions used in this C project are:
-
-* calculate_length_menu()
-* calculate_weight_menu()
-* calculate_temprature_menu()
-* display_main_menu();            
-* display_length_menu();        
-* display_weight_menu();        
-* display_temprature_menu();
-* display_value()
-* display_answer()
-
-Conversion Calculator application is so simple to use. In order to use the application, use make run command and then, you will have three options to select :
-
+Conversion Calculator application is so simple to use. In order to use the application, use make run command and then, you will have three options to select
+And with this three converters user can convert data from one unit to othe
 * LENGTH CONVERTER
 
 * WEIGHT CONVERTER
@@ -69,7 +57,8 @@ Conversion Calculator application is so simple to use. In order to use the appli
 
    ### Opportunities
 
-      It can be used in different work places and by different needs. (example: physics lab, calculating distance from one form to another etc.) 
+      It can be used in different work places and by different needs.
+      (example: calculating distance from one form to another etc.) 
       User friendly.
 
    ### Threats
@@ -81,7 +70,8 @@ Conversion Calculator application is so simple to use. In order to use the appli
  ## 4 W's and 1 H
 
    ### Who
-     Anyone can use this by accessing its main menu and need to choose there  required field of choice and need to enter the value to get there desired output.
+     Anyone can use this by accessing its main menu and need to choose there  required field of choice and need to enter the 
+     value to get there desired output.
 
    ### What
      It's an unit converter utility to convert units, whic will hwpl user to converts units from one form to another form  .
@@ -98,16 +88,18 @@ Conversion Calculator application is so simple to use. In order to use the appli
 
 # Detail requirements
 ## High Level Requirements
-|HLR|     Description  |
-|------|  --------------|
-|HLR_1|   Accurate value     |
-|HLR_2|   conversion factors |
-|HLR_3|   Basic conversions  |
+|HLR|     Description  |         status     |
+|------|  --------------| ------------------|
+|HLR_1|   Accurate values     | Implemented |
+|HLR_2|   conversion factors |  Implemented |
+|HLR_3|   Basic conversions  | Implemented  | 
+|HHR_4 |  Multifile Approach | Implemented |
 
             
 ## Low Level Requirements
-|LLR|     Description |
-|------|  ------------|
-|LLR_1|   limited attempts |
-|LLR_2|   Clean UI         |
-|LLR_3|   User friendly    | 
+|LLR|     Description |  status     |
+|------|  ------------| --------------- |
+|LLR_1|   User Inputs | Implemented |
+|LLR_2|   Clean UI         | Implemented |
+|LLR_3|   User friendly    | Implemented |
+|LLR_4 |  Unlimited Attempts | Implemented |
