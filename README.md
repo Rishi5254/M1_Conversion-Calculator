@@ -24,16 +24,16 @@ Folder             | Description
 `1_Requirements`   | Documents detailing requirements and research
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
-`4_Output_Images`  | Output images 
+`4_TestPlanAndOutput`      |test plans and procedures
 `5_Report`         |Document consisting the evaluation sheet
-`6_Test_plan`      |test plans and procedures
-`7_Other`         |doxygen document 
+`6_ImagesAndVideos`  | Output images 
+`7_Other`         |References
 
 ## Contributors List and Summary
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | Rishik  | Feature A, B etc    | 3     | 2   | 22   | 22 |     
+`12067` | Rishik  | Length converter, weight converter, Temprature Converter| 3     | 2   | 22   | 22 |     
    
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
