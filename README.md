@@ -33,7 +33,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`12067` | Rishik  | Length converter, weight converter, Temprature Converter| 3     | 2   | 22   | 22 |     
+`12067` | Guggilla Rishik  | Length converter, weight converter, Temprature Converter| 3     | 2   | 22   | 22 |     
    
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
