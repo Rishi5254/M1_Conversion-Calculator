@@ -2,7 +2,7 @@
 
 ![flowchart unit](https://user-images.githubusercontent.com/94619066/160550195-e7c4bc9a-c893-4740-95f4-8b67f50b4ff1.png)
 
-# structure Diagrams
+# structure Diagram
 
 ![stracture](https://user-images.githubusercontent.com/94619066/161370878-14f353eb-f24f-43b0-b37f-b3791d45c598.png)
 
