@@ -107,3 +107,9 @@ And with this three converters user can convert data from one unit to othe
 ## Architecture
 ![flowchart unit](https://user-images.githubusercontent.com/94619066/160551728-945c753a-a227-4540-a9d4-1a02d90076b3.png)
 
+## structural diagram
+![structural diagram](https://user-images.githubusercontent.com/94619066/161377189-b5ab2a86-d729-4646-8ecd-2bb7ec67f637.png)
+
+## behavarial diagram
+![behavarial 1 (2)](https://user-images.githubusercontent.com/94619066/161377187-bd6f0592-a121-4a36-84fc-1fe41f9d2cb6.png)
+
